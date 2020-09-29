@@ -13,6 +13,10 @@ import { sayYesPlease } from './say-yes-please.js';
 const button = document.getElementById('launchpad');
 const results = document.getElementById('results');
 const byeBye = document.getElementById('byeBye');
+const mainContent = document.getElementById('mainContent');
+const satelite = document.getElementById('satelite');
+
+
 
 button.addEventListener('click', () => {
     // what is the users name
@@ -63,9 +67,14 @@ button.addEventListener('click', () => {
 
     if (correcto >= 2) {
         byeBye.style.display = 'block';
-        
+        mainContent.style.display = 'none';
+        satelite.style.display = 'block';
     }
 
 });
 
+// document.getElementById('satelite').addEventListener('click', () => {
+//     console.log('itworked');
+// }
 
+// satelite.addEventListener('click', window.location.reload);
