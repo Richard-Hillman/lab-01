@@ -54,7 +54,7 @@ button.addEventListener('click', () => {
     
     // CHECKLIST NUMBER 3---------------------------------------------------------------------------------------------------------
     
-    const orbits = prompt(`${spaceCadet}, the Apollo 11 orbited eleven times around the earth before slingshotting to the moon, true or false?`);
+    const orbits = prompt(`${spaceCadet}, the Apollo 11 orbited eleven times around the earth before slingshotting to the moon, yay or neigh?`);
 
     if (sayYesPlease(orbits)) {
         
